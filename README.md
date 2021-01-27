@@ -7,6 +7,6 @@ FROM Cours C
     JOIN Jourcours J
     ON J.dateJourCours=T.jourCoursDate
     JOIN Coursdeclasse cls
-    ON  T.crsCodeCours=cls.crsCodeCours
+    ON  T.crsCodeCours=cls.crsCodeCours 
     JOIN Classe Cl
     ON cl.specialiteNomSpec=cls.classSpecialiteNomspec;
